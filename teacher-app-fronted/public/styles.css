@@ -1,0 +1,155 @@
+body {
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+
+header {
+  background-color:#f5ba13;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.addStudent {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  color:#eee;
+  background-color: #f5ba13;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.SortIcon {
+  position: fixed;
+  bottom: 80px;
+  right: 10px;
+  color:#eee;
+  background-color: #f5ba13;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.SortByAlpa {
+  position: fixed;
+  bottom: 80px;
+  right: 70px;
+  color:#eee;
+  background-color: #f5ba13;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.SortByNumber {
+  position: fixed;
+  bottom: 80px;
+  right: 130px;
+  color:#eee;
+  background-color: #f5ba13;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pencere {
+  font-size: larger;
+  position: fixed;
+  top: 40%;
+  left: 35%;
+  background-color:#f5ba13;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  width: 500px;
+  height: 200px;
+}
+
+.pencere label {
+  margin-bottom: 15px;
+}
+
+.pencere input {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.pencere button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pencere button:hover {
+  background-color: #45a049;
+}
+th{
+  border: 1px solid #ddd;
+  text-align: left;
+  background-color: #f5ba13;
+}
+
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  border-collapse: collapse;
+  width: 30%;
+  overflow: auto;
+}
+
+th, td {
+  padding: 15px;
+}
+
+.popup{
+  background-color: white;
+  border-style: solid;
+  border-color:#f5ba13;
+  position: relative;
+  margin: 10px;
+  width: 200px;
+  height: 100px;
+
+}
+
+.popup button {
+  margin-top: 10px; /* Gerekirse buton ile arasında bir boşluk bırakabilirsiniz */
+}
+
+.popup .delete {
+  position: absolute;
+  bottom:0;
+  right: 0;
+  cursor: pointer;
+  /* Diğer stiller */
+}
+
+.popup .close {
+  position: absolute;
+  top:0;
+  right: 0;
+  cursor: pointer;
+  /* Diğer stiller */
+}
+
